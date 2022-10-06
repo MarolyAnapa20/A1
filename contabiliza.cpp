@@ -1,21 +1,22 @@
+//creado por Añapa Corozo Maroly Mayerli
 #include<iostream>
 using namespace std;
 
 int main()
 {
-	int i=0,l;
-	float x,s=0;
-	cout<<"ingrese el limite l="; cin>>l;
+	int AM_i=0,AM_l;
+	float AM_x,AM_s=0;
+	cout<<"ingrese el limite AM_l="; cin>>AM_l;
 	do{
 		
-	cout<<"ingrese el numero x="; cin>>x;
-	i=i+1;
-	s=s+x;
+	cout<<"ingrese el numero AM_x="; cin>>AM_x;
+	AM_i=AM_i+1;
+	AM_s=AM_s+AM_x;
 
 
 
-	}while(i<l);
-	cout<<"Se ingresaron "<<l<<" numeros "<< "que sumaron "<<s<<endl;
+	}while(AM_i<AM_l);
+	cout<<"Se ingresaron "<<AM_l<<" numeros "<< "que sumaron "<<AM_s<<endl;
 	return 0;
 
 
