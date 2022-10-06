@@ -1,17 +1,18 @@
+//Creado por Añapa Corozo Maroly Mayerly
 #include<iostream>
 using namespace std;
 int main()
 {
-	float a,b;
+	float AM_a,AM_b;
 	cout<<"ingrese a b:"; cin>>a>>b;
-	if(a>b)
+	if(AM_a>AM_b)
 	{
-	  cout<<a<<" es mayor a "<<b<<endl;
+	  cout<<AM_a<<" es mayor a "<<b<<endl;
 
 
 	}else{
 
-	  cout<<b<<" es mayor a "<<a<<endl;
+	  cout<<AM_b<<" es mayor a "<<a<<endl;
 
 
 	}
